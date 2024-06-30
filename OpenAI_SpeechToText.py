@@ -1,9 +1,8 @@
 from openai import OpenAI
 from functions import remove_punctuation,whitespace_indexes,sentiments
-from credentials import API_KEY
 
 audio_path = ("./records/records.mp3")
-API_KEY = "your_key"
+
 
 def transcribe(q, audio_path=audio_path, API_KEY=API_KEY):
   client = OpenAI(api_key=API_KEY)
