@@ -34,11 +34,11 @@ def sentiments(text, indexes):
             )
     return sentiments
 
-def search_keyword(q, keyword):
-    print("araniyor")
+def search_keyword(q, state, keyword):
     sentiment = q.get()
     for sentiment in sentiment:
         if sentiment == keyword:
             print("keyword bulundu")
-            return True
+            state.set(True)
     print("arama tamamlandi")
+

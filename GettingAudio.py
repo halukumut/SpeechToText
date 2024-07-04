@@ -1,13 +1,18 @@
 import sounddevice as sd
 from pydub import AudioSegment
 import os
+import queue
 
-seconds = 5
 fs = 44100
 
-
-
-def record_audio(seconds=seconds, fs=fs):
+def record_audio(state, fs=fs):
+    if state.get():
+        print("state = True")
+        seconds = 10
+        print("saniye=", seconds)
+    else:
+        seconds = 5
+        print("saniye=", seconds)
     audioIndex = 0
     output_dir = "records"
     os.makedirs(output_dir, exist_ok=True)
@@ -36,5 +41,3 @@ def record_audio(seconds=seconds, fs=fs):
         print(f"Saved recording as {output_path}")
     else:
         print("No audio recorded to save.")
-
-record_audio(1)
