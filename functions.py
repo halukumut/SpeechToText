@@ -20,20 +20,25 @@ def whitespace_indexes(text):
 def sentiments(text, indexes):
     sentiments = []
     for i in range(len(indexes)):
-        if i != len(indexes) - 1 and i != 0:
-            sentiments.append(
-                text[indexes[i]+1:indexes[i+1]])
-        elif i == 0:
-            sentiments.append(
-                text[indexes[i]:indexes[i + 1]])
+        if i != len(indexes) - 1:
+            if i == 0:
+                sentiments.append(
+                    text[indexes[i]:indexes[i+1]])
+            else:
+                sentiments.append(
+                    text[indexes[i]+1:indexes[i+1]]
+                )
         else:
             sentiments.append(
                 text[-(len(text) - indexes[i]):]
             )
     return sentiments
 
-def search_keyword(q, keyword="dinle"):
+def search_keyword(q, keyword):
+    print("araniyor")
     sentiment = q.get()
     for sentiment in sentiment:
         if sentiment == keyword:
+            print("keyword bulundu")
             return True
+    print("arama tamamlandi")

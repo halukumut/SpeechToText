@@ -13,7 +13,7 @@ while True:
     q.empty()
     recorder_thread = threading.Thread(target=record_audio, args=(5,))
     transcriber_thread = threading.Thread(target=transcribe, args=(q,))
-    searcher_thread = threading.Thread(target=search_keyword, args=(q, "şu",))
+    searcher_thread = threading.Thread(target=search_keyword, args=(q, "İbrahim",))
 
     recorder_thread.start()
     transcriber_thread.start()
