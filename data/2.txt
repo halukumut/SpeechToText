@@ -1,0 +1,50 @@
+Kedi kapıyı aç
+Kapı lamba açsana
+Kapıyı açtın mı böceği?
+Lütfen pencereyi kapatır mısın?
+Şu masayı açar mısın?
+Kapıyı lütfen kapattın mı?
+Şarkıyı açar mısın?
+Masa kapıyı kapat
+Pencereyi açar mısın?
+Şu çiçeği kapatsana
+Kapıyı kapattı mı lamba?
+Lütfen kapıyı aç, pencereyi kapat
+Şu bardağı açsana
+Kapıyı kapat, kitabı aç
+Kapıyı açar mısın, lamba?
+Çiçeği kapatır mısın?
+Kedi kapıyı kapat
+Kapıyı aç, pencereyi kapatır mısın?
+Kapıyı açtın mı ışığı?
+Şu pencereyi kapatır mısın?
+Kapıyı açar mısın, pencereyi de kapat
+Masa lambayı aç
+Lütfen kitabı kapatır mısın?
+Şu ışığı açsana
+Kapıyı açtın mı masa?
+Kedi kapıyı açtı mı?
+Kapıyı kapat, pencereyi açar mısın?
+Pencereyi kapattın mı?
+Şu çiçeği açsana
+Kapıyı kapatır mısın, ışığı aç
+Kapıyı açtın mı böcek?
+Lütfen lambayı kapat
+Şu masayı kapatsana
+Kapıyı kapattın mı lamba?
+Pencereyi aç, kapıyı kapat
+Kapıyı açar mısın, çiçeği de kapat
+Kapıyı kapat, kitabı açsana
+Kedi lambayı kapat
+Kapıyı açtın mı ışık?
+Lütfen masayı açar mısın?
+Şu pencereyi açsana
+Kapıyı kapattın mı masa?
+Çiçeği açar mısın?
+Kapıyı kapat, pencereyi açar mısın?
+Lütfen lambayı aç
+Kapıyı açtın mı masa?
+Şu çiçeği kapatır mısın?
+Pencereyi kapat, lambayı açar mısın?
+Kapıyı kapat, çiçeği aç
+Kapıyı açtın mı ışık?
