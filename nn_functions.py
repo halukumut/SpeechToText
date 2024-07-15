@@ -45,4 +45,4 @@ def fetch_data(tokenizer, directory_path=directory_path):
             label = np.vstack((label, temp_arr))
     reshaped = np.hstack((padded, label))
     reshaped = reshaped.astype('int32')
-    return reshaped, word_index + 1, reshaped.shape[1]
+    return reshaped, word_index + 1

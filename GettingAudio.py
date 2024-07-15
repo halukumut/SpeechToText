@@ -1,7 +1,6 @@
 import sounddevice as sd
 from pydub import AudioSegment
 import os
-import queue
 
 fs = 44100
 
