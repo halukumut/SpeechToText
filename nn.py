@@ -38,7 +38,8 @@ def train_model(data, vocab_size, ):
 
     # Modeli derleme
     model.compile(optimizer=tf.keras.optimizers.Adam(
-        learning_rate=0.01, epsilon=0.00001, use_ema=True, ema_momentum=0.8), loss=tf.keras.losses.CategoricalCrossentropy(), metrics=['accuracy']
+        learning_rate=0.01, epsilon=0.00001, use_ema=True, ema_momentum=0.8),
+        loss=tf.keras.losses.CategoricalCrossentropy(), metrics=['accuracy']
     )
 
     # Model özetini yazdırma
@@ -47,20 +48,31 @@ def train_model(data, vocab_size, ):
     # Modeli eğitme
     model.fit(input_train, output_train, epochs=60, validation_data=(input_val, output_val))
 
-    model.save('./model/model.keras')
+    model.save('./model/model_deneme.keras')
 def load_model():
     model = keras.models.load_model('./model/model.keras')
     return model
 def predict(q, model, tokenizer):
     text = q.get()
-    tokenized_data = tokenize(tokenizer, text)
+    text_formatted = [text]
+    text_formatted = ["kapıyı aç"]
+
+    tokenized_data = tokenize(tokenizer, text_formatted)
     predicts = model.predict(tokenized_data)
+    print(predicts)
     prediction = 0
     index = 0
-    for predict_index in range(len(predicts)):
-        if predicts[predict_index] > prediction:
-            prediction = predicts[predict_index]
+    for predict_index in range(len(predicts[0])):
+        if predicts[0][predict_index] > prediction:
+            print("predict index is ", predict_index)
+            prediction = predicts[0][predict_index]
             index = predict_index
+            print(index)
 
     results = ["kapıyı kapat", "kapıyı aç", "algılanamadı"]
     print(results[index])
+
+
+tokenizer, data, vocab_size = tokenizer()
+
+train_model(data,vocab_size)
