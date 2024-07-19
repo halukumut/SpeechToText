@@ -1,0 +1,26 @@
+Klima kapat
+Klima durdur
+Klima pasifleştir
+Klima kapalı duruma getir
+Klima kapanmasını başlat
+Klima işlemlerini sonlandır
+Klima enerjisini kes
+Klima devre dışı bırak
+Klima kapanış modu
+Klima güç kes
+Klimayı kapat
+Klimayı durdur
+Klimayı devre dışı bırak
+Klimanın gücünü kes
+Klimanın enerjisini kes
+Klimanın devre dışı bırakılmasını başlat
+Klimanın durdurulmasını başlat
+Klimanın kapanmasını başlat
+Klimanın kapatılmasını başlat
+Klimanın kapanışını başlat
+Klimanın kapanış işlemini başlat
+Klimanın işlemlerini sonlandır
+Klimanın enerjisini kes
+Klimanın gücünü kes
+Klimanın durdurulmasını başlat
+Klimanın devre dışı bırakılmasını başlat

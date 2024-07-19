@@ -1,0 +1,11 @@
+Klima aç
+Klima çalıştır
+Klima başlat
+Klima aktif et
+Klima açmayı başlat
+Klimayı aç
+Klimayı kapat
+Klimayı çalıştır
+Klimayı başlat
+Klimayı aktif et
+Klimayı açmayı başlat
