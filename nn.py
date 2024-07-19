@@ -71,8 +71,3 @@ def predict(q, model, tokenizer):
 
     results = ["kapıyı kapat", "kapıyı aç", "algılanamadı"]
     print(results[index])
-
-
-tokenizer, data, vocab_size = tokenizer()
-
-train_model(data,vocab_size)
